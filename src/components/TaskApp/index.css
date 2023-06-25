@@ -1,0 +1,130 @@
+.app-container {
+  min-height: 100vh;
+  font-family: 'Roboto';
+  background-color: #000000;
+  display: flex;
+}
+.left-container {
+  background-color: #131213;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.head {
+  color: #f3aa4e;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.label {
+  color: #f8f8f8;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.input {
+  width: auto;
+  height: 35px;
+  margin-bottom: 20px;
+  outline: none;
+  padding-left: 10px;
+}
+.button {
+  height: 35px;
+  width: 100px;
+  outline: none;
+  cursor: pointer;
+  background-color: #f3aa4e;
+  color: #f8f8f8;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+}
+.right-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.head2 {
+  color: #f8f8f8;
+  font-size: 25px;
+}
+.tags-container {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+.tag-item {
+  border: 1px solid #f8f8f8;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tag-item-active {
+  border: none;
+  background-color: #f3aa4e;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tag-text {
+  color: #f8f8f8;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.no-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.task-container {
+  list-style-type: none;
+  padding: 0;
+}
+.task-list-item {
+  background-color: #1a171d;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.task-text {
+  font-size: 25px;
+  color: #f8f8f8;
+}
+.tag-type {
+  background-color: #f3aa4e;
+  color: #64748b;
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
